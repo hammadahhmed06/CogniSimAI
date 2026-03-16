@@ -1,0 +1,14 @@
+{
+  // Root solution tsconfig; add baseUrl/paths so tooling that only loads this file still resolves "@" alias
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

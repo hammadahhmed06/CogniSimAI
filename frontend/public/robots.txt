@@ -1,0 +1,9 @@
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://cognisim-ai.com/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 10
